@@ -16,11 +16,18 @@ public class SearchByName {
             }
         }
 
-        if (resultados.isEmpty()) {
-            Account usuarioInexistente = new Account("Usuário Inexistente", "");
-            resultados.add(usuarioInexistente);
+        return resultados;
+    }
+
+    public int contarUsuariosPorNome(List<Account> usuarios, String termoPesquisa) {
+        int contador = 0;
+
+        for (Account usuario : usuarios) {
+            if (usuario.getName().toLowerCase().contains(termoPesquisa.toLowerCase())) {
+                contador++;
+            }
         }
 
-        return resultados;
+        return contador;
     }
 }
