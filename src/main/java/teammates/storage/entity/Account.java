@@ -53,6 +53,11 @@ public class Account extends BaseEntity {
         this.setCreatedAt(Instant.now());
     }
 
+    public Account(String name, String email) {
+        this.name = name;
+        this.email = email;
+    }
+
     public String getGoogleId() {
         return googleId;
     }

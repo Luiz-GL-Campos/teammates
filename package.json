@@ -21,7 +21,7 @@
     "@angular/common": "^14.2.12",
     "@angular/compiler": "^14.2.12",
     "@angular/core": "^14.2.12",
-    "@angular/fire": "^7.5.0",
+    "@angular/fire": "^6.1.5",
     "@angular/forms": "^14.2.12",
     "@angular/localize": "^14.2.12",
     "@angular/platform-browser": "^14.2.12",
@@ -35,7 +35,7 @@
     "@tinymce/tinymce-angular": "^7.0.0",
     "d3": "^7.8.2",
     "file-saver": "^2.0.5",
-    "firebase": "^9.17.2",
+    "firebase": "^8.6.8",
     "handsontable": "^12.3.1",
     "intersection-observer": "^0.12.2",
     "moment-timezone": "^0.5.40",
@@ -76,8 +76,8 @@
     "postcss": "^8.4.21",
     "rimraf": "^4.1.2",
     "run-script-os": "^1.1.6",
-    "stylelint": "^13.13.1",
-    "stylelint-config-standard": "^22.0.0",
+    "stylelint": "^15.10.1",
+    "stylelint-config-standard": "^34.0.0",
     "typescript": "~4.7.4",
     "webpack-bundle-analyzer": "^4.8.0"
   }
